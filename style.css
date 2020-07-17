@@ -1,0 +1,45 @@
+.navbar,.navbar-custom,.navbar-expand-lg,.navbar-dark
+{
+    min-height: 20px !important;
+}
+.navbar-brand
+{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+}
+.navbar-custom
+{
+    background-color:black;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding-top:15px;
+    width:100%;
+    height: 100%;
+    margin:0px;
+    background-color: blueviolet;
+}
+.Ext{
+    width : 100%;
+    height: 100%;
+    padding: 0%;
+    margin:0px;
+    background-color: black;
+    color: blanchedalmond;
+}
+.carousel .item {
+    height: 50px;
+  }
+  
+  .carousel-item{
+      filter: blur(10px);
+      filter: opacity(0.5);
+  }
+  .cen{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
